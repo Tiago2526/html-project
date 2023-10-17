@@ -1,11 +1,13 @@
  *{
-    background-color: gray;
+    background-color: black;
  }
 
  /* Navbar container */
  .navbar {
     overflow: hidden;
     font-family: Arial;
+    display: flex;
+    gap: 20px;
   }
   
   /* Links inside the navbar */
@@ -35,12 +37,7 @@
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: black;
-  }
-  
+    
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
