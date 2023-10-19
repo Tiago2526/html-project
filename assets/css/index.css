@@ -9,7 +9,8 @@
   font-family: Arial;
   display: flex;
   gap: 20px;
-  box-shadow:0px 0px 100px 50px color(srgb 100 0 0) ;
+  box-shadow:0px 0px 20px 0px color(srgb 100 0 0);
+  border-radius: 10px;
 }
 
 /* Links inside the navbar */
@@ -31,7 +32,6 @@
 .dropdown {
   float: left;
   overflow: hidden;
-  
 }
 
 /* Dropdown button */
