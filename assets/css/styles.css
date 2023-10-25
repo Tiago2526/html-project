@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: black;
+}
+
 /* Navbar container */
 .navbar {
   background-color: black;
@@ -95,38 +99,28 @@ html {
   display: block;
 }
 
-.dropdown-other-games .dropbt {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  /* Important for vertical align on mobile phones */
-  margin: 0;
-}
-
-.dropdown-games {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(255, 0, 0, 0);
-  z-index: 1;
-}
-
-.dropdown-games a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+.text {
+  width: 100vw;
+  height: auto;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text .image-yes {
   width: 100%;
   height: auto;
   z-index: 0;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.whatsApex h2 {
+  color: darkred;
+}
+
+.whatsApex p {
+  color: lightgray;
 }
