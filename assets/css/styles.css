@@ -117,8 +117,23 @@ body{
   align-items: center;
 }
 
-.whatsApex h2 {
+h2 {
   color: darkred;
+}
+
+.legends li a {
+  text-decoration: none;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.legends li a:hover {
+  background-color: darkred;
+  transform: scale(1.1);
+}
+
+.legends li a:visited {
+  background-color: lightgray;
 }
 
 .whatsApex p {
