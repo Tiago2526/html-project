@@ -117,14 +117,18 @@ body{
   align-items: center;
 }
 
-h2 {
+h1, h2, h3 {
   color: darkred;
 }
+
+/* Search pagina*/
 
 .legends li a {
   text-decoration: none;
   margin: 5px;
   transition: transform 0.3s ease;
+  color: white;
+  font-size: 20px;
 }
 
 .legends li a:hover {
@@ -138,4 +142,8 @@ h2 {
 
 .whatsApex p {
   color: lightgray;
+}
+
+.ash {
+  display: none;
 }
