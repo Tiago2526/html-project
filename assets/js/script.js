@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log('Toon verhaal');
 
         // verwijder en voeg de .verborgen class toe
-        document.getElementById("ash").classList.remove("ash    ");
+        document.getElementById("ash").classList.remove("ash");
+        document.getElementById("balistic").classList.remove("balistic");
         
     });
 
