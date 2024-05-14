@@ -154,10 +154,6 @@ h1, h2, h3 {
   color: black;
 }
 
-.ash, .balistic {
-  display: none;
-}
-
 .hamburger-menu {
   display: none;
 }
@@ -166,6 +162,10 @@ h1, h2, h3 {
   display: flex;
   justify-content: left;
   gap: 10px;
+}
+
+.verborgen {
+  display: none;
 }
 
 /* Responsive navigation menu */

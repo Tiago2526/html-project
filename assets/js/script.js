@@ -1,24 +1,18 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
-	alert('Website is still under construction!');
+  alert('Website is still under construction!');
 
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    
-    // voer code uit als je op de knop klikt
-    document.getElementById("toonVerhaalAsh").addEventListener("click", function() {
-    
-				// test of de knop werkt
-        console.log('Toon verhaal');
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("assault").addEventListener("click", function () {
+    document.getElementById("assault").classList.toggle("verborgen");
+  }
+  );
 
-        // verwijder en voeg de .verborgen class toe
-        document.getElementById("ash").classList.remove("ash");
-        document.getElementById("balistic").classList.remove("balistic");
-        document.getElementById("ash").classList.add("verborgen");
-        document.getElementById("balistic").classList.add("verborgen");
-        document.getElementById("ash").classList.add("ash");
-    }
-    );
-    });
+  document.getElementById("toonVerhaalAsh").addEventListener("click", function () {
+    document.getElementById("verhaalAsh").classList.toggle("verborgen");
+  }
+  );
+});
